@@ -4,6 +4,10 @@ import java.util.List;
 
 public class EntradaOrdenar {
 	
+
+
+
+
 	private List<Persona> listaPersona;
 	private String filtro;
 	
