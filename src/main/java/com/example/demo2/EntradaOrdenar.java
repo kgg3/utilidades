@@ -15,6 +15,10 @@ public class EntradaOrdenar {
 		this.listaPersona = listaPersona;
 		this.filtro = filtro;
 	}
+
+	public EntradaOrdenar(String filtro) {
+		this.filtro = filtro;
+	}
 	
 	public List<Persona> getListaPersona() {
 		return listaPersona;
